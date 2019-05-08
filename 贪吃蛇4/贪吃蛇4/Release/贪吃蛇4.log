@@ -1,0 +1,79 @@
+﻿生成启动时间为 2019/3/13 星期三 9:25:05。
+     1>项目“F:\应用程序\贪吃蛇4\贪吃蛇4\贪吃蛇4.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\贪吃蛇4.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\贪吃蛇4.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "贪吃蛇4.cpp"
+         贪吃蛇4.cpp
+     1>贪吃蛇4.cpp(1): warning C4627: “#include <string>”: 在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>贪吃蛇4.cpp(54): error C2664: “mciSendStringW”: 不能将参数 1 从“const char [28]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>贪吃蛇4.cpp(56): error C2664: “mciSendStringW”: 不能将参数 1 从“const char [23]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>贪吃蛇4.cpp(81): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(82): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(84): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(93): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(267): 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+                 E:\VS2012\VC\include\easyx.h(268): 或       “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+                 尝试匹配参数列表“(IMAGE *, const char [11], int, int)”时
+     1>贪吃蛇4.cpp(94): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(267): 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+                 E:\VS2012\VC\include\easyx.h(268): 或       “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+                 尝试匹配参数列表“(IMAGE *, const char [11], int, int)”时
+     1>贪吃蛇4.cpp(95): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(267): 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+                 E:\VS2012\VC\include\easyx.h(268): 或       “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+                 尝试匹配参数列表“(IMAGE *, const char [11], int, int)”时
+     1>贪吃蛇4.cpp(96): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(267): 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+                 E:\VS2012\VC\include\easyx.h(268): 或       “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+                 尝试匹配参数列表“(IMAGE *, const char [11], int, int)”时
+     1>贪吃蛇4.cpp(97): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(267): 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+                 E:\VS2012\VC\include\easyx.h(268): 或       “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+                 尝试匹配参数列表“(IMAGE *, const char [9], int, int)”时
+     1>贪吃蛇4.cpp(98): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(267): 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+                 E:\VS2012\VC\include\easyx.h(268): 或       “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+                 尝试匹配参数列表“(IMAGE *, char [100], int, int)”时
+     1>贪吃蛇4.cpp(191): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(192): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(193): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(194): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(110) : 参见“strcpy”的声明
+     1>贪吃蛇4.cpp(200): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(267): 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+                 E:\VS2012\VC\include\easyx.h(268): 或       “void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+                 尝试匹配参数列表“(IMAGE *, char [100], int, int)”时
+     1>贪吃蛇4.cpp(222): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(258): 可能是“void settextstyle(int,int,LPCTSTR)”
+                 尝试匹配参数列表“(int, int, const char [5])”时
+     1>贪吃蛇4.cpp(223): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(234): 可能是“void outtextxy(int,int,LPCTSTR)”
+                 E:\VS2012\VC\include\easyx.h(235): 或       “void outtextxy(int,int,TCHAR)”
+                 尝试匹配参数列表“(int, int, const char [10])”时
+     1>贪吃蛇4.cpp(225): error C2665: “settextstyle”: 4 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(258): 可能是“void settextstyle(int,int,LPCTSTR)”
+                 尝试匹配参数列表“(int, int, const char [5])”时
+     1>贪吃蛇4.cpp(232): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\VS2012\VC\include\string.h(115) : 参见“strcat”的声明
+     1>贪吃蛇4.cpp(233): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+                 E:\VS2012\VC\include\easyx.h(234): 可能是“void outtextxy(int,int,LPCTSTR)”
+                 E:\VS2012\VC\include\easyx.h(235): 或       “void outtextxy(int,int,TCHAR)”
+                 尝试匹配参数列表“(int, int, char [100])”时
+     1>贪吃蛇4.cpp(236): warning C4551: 缺少参数列表的函数调用
+     1>已完成生成项目“F:\应用程序\贪吃蛇4\贪吃蛇4\贪吃蛇4.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.28
